@@ -50,9 +50,9 @@ services:
       - db_root_password
 secrets:
    db_password:
-     file: db_password.txt
+     file: db_pwd.txt
    db_root_password:
-     file: db_root_password.txt
+     file: db_root_pwd.txt
 volumes:
   wordpress:
   db:
